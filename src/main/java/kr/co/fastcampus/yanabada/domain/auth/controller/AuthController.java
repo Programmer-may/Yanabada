@@ -103,9 +103,4 @@ public class AuthController {
     ) {
         return ResponseBody.ok(authService.verifyAuthCode(codeRequest));
     }
-
-    @PostMapping("/verification/phone")
-    public void verifyPhoneNumber() {
-    }
-
 }
